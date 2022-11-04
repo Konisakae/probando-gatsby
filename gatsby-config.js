@@ -1,7 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Probando Gatsby`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "Probando Gatsby",
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
+  ],
 };

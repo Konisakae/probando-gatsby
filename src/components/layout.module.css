@@ -18,10 +18,17 @@
     color: black;
   }
 
-  .active {
+  .nav-link-text-active {
     color:blue;
     text-decoration: none;
     pointer-events: none;
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
+  }
