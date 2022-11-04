@@ -17,3 +17,11 @@
   .nav-link-text {
     color: black;
   }
+
+  .active {
+    color:blue;
+    text-decoration: none;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
